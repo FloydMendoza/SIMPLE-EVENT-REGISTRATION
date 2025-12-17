@@ -26,10 +26,12 @@ The system enables users to register for events while storing all registration d
 4. **Database Storage**
    - Registrations are stored in the `registrations` collection in MongoDB.
    - Each registration contains fields such as:
-     - `name`
-     - `email`
-     - `event`
-     - `timestamp`
+     - `eventid`
+     - `date`
+     - `location`
+     - `fullName`
+     - `duration`
+     - `eventname`
 
 5. **Admin/Developer Access**
    - The system exposes API routes to:
