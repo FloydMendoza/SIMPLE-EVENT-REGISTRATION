@@ -1,6 +1,6 @@
 # Simple Event Registration System
 
-A **Simple Event Registration System** that allows users to register for events efficiently. This project is built using `Node.js`, `Express`, `MongoDB`, `Nodemon`, and `Mongoose`.
+A **Simple Event Registration System** that allows users to register for events efficiently. This project is built using `Node.js`, `Express`, `Dotenv` ,`MongoDB`, `Nodemon`, and `Mongoose`.
 
 ---
 
