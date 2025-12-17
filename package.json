@@ -17,5 +17,13 @@
     "express": "^5.2.1",
     "mongoose": "^9.0.1",
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloydMendoza/SIMPLE-EVENT-REGISTRATION.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FloydMendoza/SIMPLE-EVENT-REGISTRATION/issues"
+  },
+  "homepage": "https://github.com/FloydMendoza/SIMPLE-EVENT-REGISTRATION#readme"
 }
