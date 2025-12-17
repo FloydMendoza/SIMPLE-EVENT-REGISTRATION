@@ -3,12 +3,38 @@
   // pag define han event schema
   const eventSchema = new mongoose.Schema(
     {
-      // event para hibaroan kun ano an event
+      // event id
       eventid: {
         type: String,
         required: [true, "Event ID is required"],
         trim: true,
       },
+
+      //ngaran han client
+
+      fullName: {
+      type: String,
+      required: [true, "Full name is required"],
+      trim: true,
+    },
+
+      //duration han event
+
+       duration: {
+      type: String,
+      required: [true, "Duration is required"],
+      trim: true,
+    },
+
+    //ngaran han event
+
+      eventname: {
+      type: String,
+      ref: "Event",
+      required: true
+    },
+    
+
 
       // petsa han event
       date: {
@@ -23,6 +49,9 @@
         required: [true, "location is required"],
       },
     },
+
+    
+
     {
       // automatic timestamps
       timestamps: true,
