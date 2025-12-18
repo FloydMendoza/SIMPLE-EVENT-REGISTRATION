@@ -12,7 +12,7 @@ The system enables users to register for events while storing all registration d
 
 1. **User Access**
    - Users open the system via a web browser.
-   - The system provides forms to input registration details like name, email, and event information.
+   - The system provides forms to input registration details like fullName, date, location, duration, and event information.
 
 2. **Registration Submission**
    - User submits the registration form.
