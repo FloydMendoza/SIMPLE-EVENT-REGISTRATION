@@ -17,7 +17,7 @@ connectDB();
 // pag create han express app
 const app = express();
 
-// pag gamit han PORT tikang ha .env o default 3000
+// pag gamit han PORT tikang ha .env o default 5000
 const PORT = process.env.PORT || 5000;
 
 
